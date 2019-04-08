@@ -1,3 +1,95 @@
 /**
  TODO(you): Write the CSS necessary to complete HW1!
 */
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    max-width: 780px;
+  }
+#HEADER {
+    width: auto;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#profile{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+#vrk{
+    margin-top: -50px;
+    border-bottom: 2px;
+    width: 100px;
+    border-radius: 100%;
+    border:1px solid white;
+}
+#name{
+    font-weight: bold;
+}
+#time{
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+    display: inline-block;
+}
+#article{
+    text-align: center;
+}
+.number{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-right: 40px;
+    color: rgba(0, 0, 0, 0.25);
+}
+.heading{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-top: 60px;
+    color:rgb(51, 51, 51);
+}
+#content{
+    margin-top: 60px;
+    display: inline-block;
+    width: 66.67%;
+    text-align: left;
+}
+a{
+    font-size:18px;
+    text-decoration: none;
+    display:flex;
+    color:#42b4d6;
+}
+a:hover{
+    text-decoration: underline;
+}
+.paragraph{
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color:rgb(51, 51, 51);
+    line-height: 32px;
+}
+.recommendation{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.photo{
+    margin-bottom: 60px;
+    width: 100%;
+}
